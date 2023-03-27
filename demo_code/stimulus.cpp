@@ -1,6 +1,6 @@
 #include "systemc.h"
 
-struct ExampleStim : public sc_module {
+ SC_MODULE (Demo) {
   // Module IO
   sc_in<bool> clk;
   sc_out<bool> a;

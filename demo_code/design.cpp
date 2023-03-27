@@ -1,6 +1,6 @@
 #include "systemc.h"
 
-struct Example : public sc_module {
+ SC_MODULE (SR) {
   // Circuit inputs and outputs
   sc_in<bool> clk;
   sc_in<bool> a;
