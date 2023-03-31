@@ -1,0 +1,87 @@
+$date
+     Mar 31, 2023       10:56:44
+$end
+
+$version
+              SystemC 2.3.0_pub_rev_20111121-OSCI --- Mar 15 2023 10:51:31
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  cin       $end
+$var wire    1  aaaab  carry_out       $end
+$var wire   16  aaaac  a_combined [15:0]  $end
+$var wire   16  aaaad  b_combined [15:0]  $end
+$var wire   16  aaaae  sum_combined [15:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+1aaaab
+b0 aaaac
+b0 aaaad
+b0 aaaae
+$end
+
+#10000
+b1010110101111 aaaac
+b1111011111001001 aaaad
+b110101111000 aaaae
+
+#20000
+1aaaaa
+0aaaab
+b1111111100100110 aaaac
+b1001110110111100 aaaad
+b1001110011100010 aaaae
+
+#30000
+1aaaab
+b1000010011101010 aaaac
+b111011011011011 aaaad
+b1111101111000110 aaaae
+
+#40000
+0aaaaa
+0aaaab
+b11101101011111 aaaac
+b1110111111000010 aaaad
+b10101100100010 aaaae
+
+#50000
+b11101001110011 aaaac
+b1000101111010110 aaaad
+b1100011001001001 aaaae
+
+#60000
+1aaaab
+b10010110100001 aaaac
+b1000111010101000 aaaad
+b1011010001001001 aaaae
+
+#70000
+0aaaab
+b1000111001111011 aaaac
+b1011011100100010 aaaad
+b100010110011101 aaaae
+
+#80000
+1aaaab
+b110111100010000 aaaac
+b110000000010 aaaad
+b111101100010010 aaaae
+
+#90000
+1aaaaa
+b110100100010100 aaaac
+b1101011100101101 aaaad
+b100000001000001 aaaae
+
